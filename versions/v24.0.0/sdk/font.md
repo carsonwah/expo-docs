@@ -24,7 +24,7 @@ Expo.Font.loadAsync('open-sans', 'http://url/to/open-sans.ttf');
 
 #### Returns
 
-Doesn't return anything and simply awaits till the font is available to use.
+Returns a Promise that resolves when the font is available to use.
 
 ### `Expo.Font.loadAsync(map)`
 
@@ -47,5 +47,5 @@ This is equivalent to calling [`Expo.Font.loadAsync()`](#expofontloadasync "Expo
 
 #### Returns
 
-Doesn't return anything and simply awaits till all fonts are available to use.
+Returns a Promise that resolves when all the fonts are available to use.
 
